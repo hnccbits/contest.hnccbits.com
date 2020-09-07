@@ -1,11 +1,17 @@
-import React from "react";
+import React, {Component} from "react";
+import Nav from './components/nav';
+import Header from './components/header';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>HnCC</h1>
-    </div>
-  );
+class App extends Component {
+	render(){
+	  return (
+	    <div className="App">
+	    	<Nav />
+	    	<Header />
+	    </div>
+	  
+	  );
+	}
 }
 
 export default App;
