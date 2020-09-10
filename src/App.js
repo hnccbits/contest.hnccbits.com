@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "./components/Nav";
+import Header from "./components/Header";
 import "./App.css";
 import RankList from "./components/RankList";
 
@@ -9,22 +10,22 @@ const data = [
     contest_date: "12th August 2020",
     winner: {
       rank_one: {
-        name: "Suraj Mahto",
+        name: "Name 1",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_two: {
-        name: "Suraj Mahto",
+        name: "Name 2",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_three: {
-        name: "Suraj Mahto",
+        name: "Name 3",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
     },
   },
@@ -33,22 +34,22 @@ const data = [
     contest_date: "12th August 2020",
     winner: {
       rank_one: {
-        name: "Suraj Mahto",
+        name: "Name 1",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_two: {
-        name: "Suraj Mahto",
+        name: "Name 2",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_three: {
-        name: "Suraj Mahto",
+        name: "Name 3",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
     },
   },
@@ -57,22 +58,22 @@ const data = [
     contest_date: "12th August 2020",
     winner: {
       rank_one: {
-        name: "Suraj Mahto",
+        name: "Name 1",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_two: {
-        name: "Suraj Mahto",
+        name: "Name 2",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
       rank_three: {
-        name: "Suraj Mahto",
+        name: "Name 3",
         branch: "IT",
         roll_no: 1811010,
-        codechef_id: "suraj123",
+        codechef_id: "user_id",
       },
     },
   },
@@ -83,6 +84,8 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
+        <Header />
+
         {data.map((data) => {
           return <RankList data={data} />;
         })}

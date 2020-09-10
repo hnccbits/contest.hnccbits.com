@@ -7,9 +7,9 @@
   pointer-events: none;
 }
 
-.head {
+.nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .ranklist__head {
