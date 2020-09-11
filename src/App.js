@@ -8,6 +8,7 @@ const data = [
   {
     contest_name: "Contest 1",
     contest_date: "12th August 2020",
+    contest_description: "Lorem Ipsum",    
     winner: {
       rank_one: {
         name: "Name 1",
@@ -31,6 +32,7 @@ const data = [
   },
   {
     contest_name: "Contest 2",
+    contest_description: "Lorem Ipsum",
     contest_date: "12th August 2020",
     winner: {
       rank_one: {
@@ -56,6 +58,7 @@ const data = [
   {
     contest_name: "Contest 3",
     contest_date: "12th August 2020",
+    contest_description: "Lorem Ipsum",
     winner: {
       rank_one: {
         name: "Name 1",
