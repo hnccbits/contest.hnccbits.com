@@ -23,3 +23,10 @@
   display: flex;
   flex-direction: column;
 }
+.lb-title{
+  font-size: xx-large;
+  font-weight: bold;
+  color: #87431d;
+  font-family: 'Roboto', sans-serif;
+  margin: 3% auto;
+}
