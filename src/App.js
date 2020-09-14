@@ -3,6 +3,7 @@ import Nav from "./components/Navbar/Nav";
 import Header from "./components/Header";
 import "./App.css";
 import RankList from "./components/RankList";
+import Footer from "./components/Footer/Footer"
 
 const data = [
   {
@@ -92,7 +93,9 @@ class App extends Component {
         {data.map((data) => {
           return <RankList data={data} />;
         })}
+        <Footer/>
       </div>
+      
     );
   }
 }
