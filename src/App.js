@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar/Nav";
 import Header from "./components/Header";
 import "./App.css";
 import RankList from "./components/RankList";
