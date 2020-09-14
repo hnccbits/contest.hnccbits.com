@@ -9,6 +9,6 @@ function Header() {
   );
 }
 
-const headerStyle = {};
+// const headerStyle = {};
 
 export default Header;
