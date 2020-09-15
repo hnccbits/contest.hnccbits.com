@@ -1,16 +1,17 @@
-import React, { Component } from "react";
-import Nav from "./components/Navbar/Nav";
-import Header from "./components/Header";
-import "./App.css";
+import React, { Component } from 'react';
+import Nav from './components/Navbar/Nav';
+import Header from './components/Header';
+import './App.css';
 // import RankList from "./components/RankList";
-import Footer from "./components/Footer/Footer";
-import LeaderBoard from "./components/LeaderBoard/LeaderBoard"
+import Footer from './components/Footer/Footer';
+import LeaderBoard from './components/LeaderBoard/LeaderBoard';
+import Contest from './components/Contest/Contest';
 
 // const data = [
 //   {
 //     contest_name: "Contest 1",
 //     contest_date: "12th August 2020",
-//     contest_description: "Lorem Ipsum",    
+//     contest_description: "Lorem Ipsum",
 //     winner: {
 //       rank_one: {
 //         name: "Name 1",
@@ -90,15 +91,15 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header />
-{/* 
+        {/* 
         {data.map((data) => {
           return <RankList data={data} />;
         })} */}
-        <h2 className="lb-title">LEADERBOARD</h2>
+        <h1 className="lb-title">LEADERBOARD</h1>
         <LeaderBoard />
-        <Footer/>
+        <Contest />
+        <Footer />
       </div>
-      
     );
   }
 }
