@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install Node Module
 
-Installation of npm packages/moudules is required:
+Installation of npm packages/modules is required:
 
 ### `npm install`
 
