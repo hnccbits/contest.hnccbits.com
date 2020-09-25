@@ -1,45 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .footer {
-    background: rgb(72,42,23);
-    padding: 3rem 1rem 1.5rem;
-    color: #dbcbbd;
-    text-decoration: none;
-    margin-bottom: 1rem;
+  background: rgb(72, 42, 23);
+  padding: 3rem 1rem 1.5rem;
+  color: #dbcbbd;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  justify-content: space-between;
 }
-
-h4 {
-    font-size: xx-large;
-    font-weight: 500;
-}
-
 .row {
-    margin: 2rem;
+  margin: 2rem 0;
+}
+.col-sm-12 {
+  border-right: 2px solid #dbcbbd;
 }
 li {
-    padding: .6rem 0;
+  padding: 0.6rem 0;
 }
-.list-unstyled li a{
-    font-family: 'Roboto', sans-serif;
-    color: #dbcbbd;
-    padding: .4rem;
-    text-decoration: none;
-    font-size: larger;
-    font-weight: 100;
+.list-unstyled li a {
+  font-family: 'Roboto', sans-serif;
+  color: #dbcbbd;
+  padding: 0.4rem;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 100;
 }
-li:hover a{
-    background-color: #dbcbbd;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
-    color: #87431d;
+li:hover a {
+  background-color: #dbcbbd;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #87431d;
+}
+.footer-para-title {
+  font-size: 4rem;
+  text-align: center;
+}
+.col-sm-12 h2 {
+  margin-top: 3%;
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-align: left;
+}
+.activity-header {
+  text-align: center;
+}
+.footer-list-item {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.footer-last-text {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #dbcbbd;
+}
+.footer-last-text i {
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+.footer-last-text i:hover {
+  background-color: #dbcbbd;
+  color: #87431d;
 }
 
+.footer-last-text a {
+  text-decoration: none;
+  color: #dbcbbd;
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+.footer-last-text a:hover {
+  background-color: #dbcbbd;
+  color: #87431d;
+}
+.footer-para {
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 2.5rem;
+}
+.codechef-chapter h3 a {
+  text-decoration: none;
+  color: #dbcbbd;
+  padding: 0.6rem;
+  text-transform: unset;
+  text-decoration: underline;
+}
+.codechef-chapter h3 a:hover {
+  background-color: #dbcbbd;
+  color: #87431d;
+  border-radius: 10px;
+}
 @media screen and (max-width: 960px) {
-    .row {
-        text-align: left;
-    }
-    .col-md-4 {
-        padding-top: 1.5rem;
-    }
+  .footer {
+    padding: 1rem 1rem 1.5rem;
+  }
+  .row {
+    text-align: left;
+  }
+  .header-image {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+  }
+  .footer-para-title {
+    text-align: left;
+  }
+  .footer-para {
+    text-align: justify;
+  }
+  .col-sm-12 {
+    border-top: 10px dotted #dbcbbd;
+    padding-top: 1.5rem;
+    border-right: none;
+    padding: 3rem 0;
+  }
+  .unactive {
+    border-top: none;
+  }
 }
