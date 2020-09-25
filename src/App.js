@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './components/Navbar/Nav';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import './App.css';
 // import RankList from "./components/RankList";
 import Footer from './components/Footer/Footer';

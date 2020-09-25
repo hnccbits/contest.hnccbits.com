@@ -1,37 +1,38 @@
-import React from "react";
+import React from 'react';
 import CCLogo from '../../assets/cc-logo.png';
 import HNCCLogo from '../../assets/hncclogo.png';
 import MenuItems from './menuItems';
-import "./Nav.css";
+import './Nav.css';
 
 class Nav extends React.Component {
-  state = {clicked: false}
+  state = { clicked: false };
 
   handleClick = () => {
-    this.setState({ clicked: !this.state.clicked })
-  }
+    this.setState({ clicked: !this.state.clicked });
+  };
 
   render() {
     return (
       <nav className="navbar">
-        <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
-          {MenuItems.map((item,index) => {
+        <div id="bg"></div>
+        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+          {MenuItems.map((item, index) => {
             return (
               <li key={index}>
                 <a className={item.class} href={item.url}>
                   {item.title}
-                </a> 
+                </a>
               </li>
-            )
+            );
           })}
         </ul>
-        <img src={CCLogo} className="nav-logo cc-logo" alt = "CodeChef-Logo"/>
-        <img src={HNCCLogo} className="nav-logo hncc-logo" alt = "HNCC-Logo"/>
+        <img src={CCLogo} className="nav-logo cc-logo" alt="CodeChef-Logo" />
+        <img src={HNCCLogo} className="nav-logo hncc-logo" alt="HNCC-Logo" />
         <div className="menu-icon" onClick={this.handleClick}>
-            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
+          <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
       </nav>
-    )
+    );
   }
 }
 
