@@ -6,7 +6,6 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import LeaderBoard from './components/LeaderBoard/LeaderBoard';
 import Contest from './components/Contest/Contest';
-
 // const data = [
 //   {
 //     contest_name: "Contest 1",
