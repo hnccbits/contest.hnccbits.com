@@ -1,3 +1,5 @@
+//jshint esversion: 6
+
 import React, { Component } from 'react';
 import Nav from './components/Navbar/Nav';
 import Header from './components/Header/Header';
@@ -6,6 +8,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import LeaderBoard from './components/LeaderBoard/LeaderBoard';
 import Contest from './components/Contest/Contest';
+import Blog from './components/Blog/blog';
 
 // const data = [
 //   {
@@ -98,6 +101,7 @@ class App extends Component {
         <h1 className="lb-title">LEADERBOARD</h1>
         <LeaderBoard />
         <Contest />
+        <Blog />
         <Footer />
       </div>
     );
