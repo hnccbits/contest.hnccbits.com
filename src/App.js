@@ -6,6 +6,8 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import LeaderBoard from './components/LeaderBoard/LeaderBoard';
 import Contest from './components/Contest/Contest';
+import Blog from './components/Blog/blog';
+
 // const data = [
 //   {
 //     contest_name: "Contest 1",
@@ -94,9 +96,14 @@ class App extends Component {
         {data.map((data) => {
           return <RankList data={data} />;
         })} */}
-        <h1 className="lb-title">LEADERBOARD</h1>
+        <h1>
+          <a className="lb-title" name="leaderboard" href="#leaderboard">
+            LEADERBOARD
+          </a>
+        </h1>
         <LeaderBoard />
         <Contest />
+        <Blog />
         <Footer />
       </div>
     );

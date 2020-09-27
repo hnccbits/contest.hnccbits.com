@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
+    padding: '3rem',
   },
   root: {
     display: 'flex',
@@ -55,6 +56,24 @@ const useStyles = makeStyles((theme) => ({
       maxWidth: '200',
     },
   },
+  dwnBtn: {
+    textDecoration: 'none',
+    color: 'inherit',
+    variant: 'h6',
+    fontWeight: 600,
+    '&:hover': {
+      textDecoration: 'none',
+      color: 'inherit',
+    },
+  },
+  icnBtn: {
+    borderRadius: '10px',
+    '&:hover': {
+      background: '#dbcbbd',
+      color: '#87431d',
+      transition: 'all 0.3s ease-in-out',
+    },
+  },
 }));
 
 const Contest = () => {
@@ -82,14 +101,18 @@ const Contest = () => {
                 </Typography>
               </CardContent>
               <div className={classes.controls}>
-                <IconButton aria-label="download">
+                <IconButton className={classes.icnBtn} aria-label="download">
                   <GetAppIcon />
-                  <Typography variant="h6">Download Brochure</Typography>
+                  <Typography variant="h6">
+                    <a className={classes.dwnBtn} href={Image} download>
+                      Download Brochure
+                    </a>
+                  </Typography>
                 </IconButton>
-                <IconButton aria-label="register">
+                <IconButton className={classes.icnBtn} aria-label="register">
                   <Typography variant="h6">Register</Typography>
                 </IconButton>
-                <IconButton aria-label="">
+                <IconButton className={classes.icnBtn} aria-label="">
                   <Typography variant="h6">How To Register</Typography>
                 </IconButton>
               </div>

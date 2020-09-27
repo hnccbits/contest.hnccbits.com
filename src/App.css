@@ -24,9 +24,17 @@
   flex-direction: column;
 }
 .lb-title {
+  text-decoration: none;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 300;
   color: #87431d;
   font-family: 'Roboto', sans-serif;
-  margin: 3% auto;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+.lb-title:hover {
+  text-decoration: none;
+  color: #87431d;
+  cursor: pointer;
+  box-shadow: 2px 3px #dbcbbd;
 }
