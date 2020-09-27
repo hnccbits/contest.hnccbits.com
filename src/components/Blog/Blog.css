@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.blog__box {
+    display: flex;
+    width: 50%;
+    margin: 2rem auto;
+    border: 8px solid #3D3D3D;
+    height: 23rem;
+}
+
+.blog__box-logo {
+    padding: 2%;
+    background-color: rgb(220, 194, 173);
+    /* background-color: #BAA685; */
+    width: 32%;
+    border-right: 8px solid #3D3D3D;
+}
+
+.hncc__hex-box {
+    transform: translate(-38%, 30%);
+    background-color: #1a2023;
+    width: 80%;
+    padding: 5% 8%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hncc-blog-img {
+    width: 100%;
+}
+
+.blog__box-content {
+    width: 70%;
+    display: flex;
+    padding: 8% 0;
+    flex-direction: column;
+}
+
+.blog__box-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.blog__box-heading span {
+    color: #87431d;
+    font-weight: 700;
+}
+
+.blog__box-btn:link,
+.blog__box-btn:visited {
+    text-decoration: none;
+    background-color: #87431d;
+    color: #dbcbbd;
+    font-size: 1.3rem;
+    padding: 2% 1%;
+    width: 40%;
+    transform: translate(80%, 50%);
+    border-radius: 6px;
+    border: 1px solid #87431d;
+    transition: all 0.2s ease-out;
+}
+
+.blog__box-btn:hover {
+    background-color: #dbcbbd;
+    text-decoration: none;
+    color: #87431d;
+    border: 1px solid #87431d;
+}
+
+
+@media (max-width: 800px) {
+    .blog__box{
+        height: 30rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog__box {
+        flex-direction: column;
+        width: 90%;
+        border: 5px solid #3D3D3D;
+        height: 30rem;
+    }
+    
+    .blog__box-logo {
+        position: relative;
+        padding: 28%;
+        width: 100%;
+        border: none;
+    }
+    
+    .hncc__hex-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 45%;
+        padding: 4% 6%;
+    }
+    
+    .blog__box-content {
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .blog__box-heading{
+        font-size: 1.6rem;
+    }
+    
+    .blog__box-btn:link,
+    .blog__box-btn:visited {
+        font-size: 1.1rem;
+        padding: 2.5% 1%;
+        width: 50%;
+        transform: translate(50%, 50%);
+    }
+}
+
+@media (max-width: 500px) {
+    .blog__box{
+        height: 26rem;
+    }
+
+    .blog__box-content {
+        padding: 14% 0;
+    }
+}
