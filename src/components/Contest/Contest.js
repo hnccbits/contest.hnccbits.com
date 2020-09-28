@@ -21,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
     margin: '1rem 5rem',
     maxWidth: 850,
     color: '#87431d',
+    border: 'none',
+    boxShadow: 'none',
     '&:hover': {
       borderColor: '#87431d',
       transition: '0.5s',
@@ -81,6 +83,11 @@ const Contest = () => {
 
   return (
     <Card className={classes.main}>
+      <h1>
+        <a className="lb-title" name="contests" href="#contests">
+          CONTEST
+        </a>
+      </h1>
       {[...Details].map((detail, index) => {
         return (
           <Card variant="outlined" className={classes.root}>

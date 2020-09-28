@@ -11,7 +11,7 @@ const MenuItem = [
   },
   {
     title: 'BLOG',
-    url: '#blogs',
+    url: 'https://blog.hnccbits.com/',
     class: 'nav-links',
   },
 ];

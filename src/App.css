@@ -38,3 +38,7 @@
   cursor: pointer;
   box-shadow: 2px 3px #dbcbbd;
 }
+
+.MuiPaper-elevation1{
+  box-shadow: none !important;
+}

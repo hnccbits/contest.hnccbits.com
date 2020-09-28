@@ -26,6 +26,7 @@ ul {
   height: 100%;
   width: auto;
   margin: 0 1.2rem;
+  cursor: none;
 }
 .nav-menu {
   display: flex;
