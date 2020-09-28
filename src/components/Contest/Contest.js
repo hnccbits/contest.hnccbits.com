@@ -21,8 +21,6 @@ const useStyles = makeStyles((theme) => ({
     margin: '1rem 5rem',
     maxWidth: 850,
     color: '#87431d',
-    border: 'none',
-    boxShadow: 'none',
     '&:hover': {
       borderColor: '#87431d',
       transition: '0.5s',
