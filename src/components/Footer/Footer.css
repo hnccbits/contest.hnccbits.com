@@ -7,6 +7,7 @@
   text-decoration: none;
   margin-bottom: 1rem;
   justify-content: space-between;
+  display: flex;
 }
 .row {
   margin: 2rem 0;
@@ -18,7 +19,6 @@ li {
   padding: 0.6rem 0;
 }
 .list-unstyled li a {
-  font-family: 'Roboto', sans-serif;
   color: #dbcbbd;
   padding: 0.4rem;
   text-decoration: none;
@@ -33,12 +33,10 @@ li a:hover {
   color: #87431d;
 }
 .footer-para-title {
-  font-size: 4rem;
   text-align: center;
 }
 .col-sm-12 h2 {
   margin-top: 3%;
-  font-size: 2.4rem;
   font-weight: 500;
   text-align: left;
 }
@@ -74,9 +72,7 @@ li a:hover {
   color: #87431d;
 }
 .footer-para {
-  font-size: 1.6rem;
   text-align: left;
-  line-height: 2.5rem;
 }
 .codechef-chapter h3 a {
   text-decoration: none;
@@ -93,6 +89,7 @@ li a:hover {
 @media screen and (max-width: 960px) {
   .footer {
     padding: 1rem 1rem 1.5rem;
+
   }
   .row {
     text-align: left;

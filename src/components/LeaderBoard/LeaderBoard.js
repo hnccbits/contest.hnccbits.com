@@ -63,13 +63,15 @@ const useStyles = makeStyles((theme) => ({
     transform: 'rotate(180deg)',
   },
   customCard: {
-    margin: '1rem 2rem',
+    margin: '1rem 1rem',
     padding: '1rem 1rem',
+    boxShadow:'.2rem 1rem .5rem #dbcbbd',
+
     '&:hover': {
       borderColor: '#87431d',
       transition: '0.5s',
       transform: 'translateY(-10px)',
-      boxShadow: '5px 10px #dbcbbd',
+      boxShadow: '.2rem 1.4rem 1rem #dbcbbd',
     },
   },
   customLink: {
@@ -147,6 +149,7 @@ export default function RecipeReviewCard() {
                 </TableContainer>
               </Typography>
             </CardContent>
+
             <CardActions disableSpacing>
               <IconButton
                 className={clsx(classes.expand, {
@@ -159,6 +162,7 @@ export default function RecipeReviewCard() {
                 <ExpandMoreIcon />
               </IconButton>
             </CardActions>
+            
             <Collapse in={expanded} timeout="auto" unmountOnExit>
               <CardContent>
                 <Typography>
@@ -168,6 +172,7 @@ export default function RecipeReviewCard() {
                 </Typography>
               </CardContent>
             </Collapse>
+            
           </Card>
         );
       })}

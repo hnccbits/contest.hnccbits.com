@@ -6,23 +6,26 @@
 }
 
 .header {
+  font-family: 'Poppins', sans-serif;      
   text-align: left;
-  padding: 4rem 2rem 2rem 15rem;
+  padding: 4rem 2rem 2rem 10rem;
   width: 90vw;
   height: 70vh;
-  text-transform: uppercase;
   color: #87431d;
-  margin: 1rem 2rem 4rem;
+  margin: 4rem 2rem 4rem;
   background-size: contain;
   background-position: 100%;
   background-repeat: no-repeat;
   background-image: url('../../assets/header-img.svg');
 }
-.header-title-2 {
-  font-size: 2.5rem;
-}
 .header-title-1 {
+  font-family: 'Poppins', sans-serif;    
+  font-size: 2rem;
+}
+.header-title-2 {
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 960px) {

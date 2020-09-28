@@ -51,7 +51,7 @@ class Footer extends React.Component {
               </p>
               <div className="codechef-chapter">
                 <h3 style={{ textAlign: 'center' }}>
-                  <a href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri?fbclid=IwAR3OO9uGmNG28wyC5i0HRZftZa7LHWc2Dn14UQuqlB0bb-xgxGLg1a6zWOE">
+                  <a href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri" target="_blank">
                     <span>Codechef Chapter</span>
                   </a>
                 </h3>

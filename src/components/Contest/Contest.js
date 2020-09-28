@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
-    padding: '3rem',
+    padding: '3rem'
   },
   root: {
     display: 'flex',
@@ -42,9 +42,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   cover: {
-    width: 'auto',
-    height: 200,
-    padding: '0 2rem',
+    width: '10rem',
+    height: 'auto',
+    alignItems: 'center'
   },
   controls: {
     display: 'flex',
@@ -92,8 +92,8 @@ const Contest = () => {
             <img className={classes.cover} src={Image} alt="hNCC" />
             <div className={classes.details}>
               <CardContent className={classes.content}>
-                <Typography variant="h3">{detail.contestName}</Typography>
-                <Typography variant="h5" color="#dbcbbd">
+                <Typography variant="h4">{detail.contestName}</Typography>
+                <Typography variant="h6" color="#dbcbbd">
                   {detail.date}
                 </Typography>
                 <Typography
