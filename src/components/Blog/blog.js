@@ -17,7 +17,7 @@ class Blog extends React.Component {
                   Check out our <span>Editorial Blog</span>
               </h2>
               <a href="https://blog.hnccbits.com/" class="blog__box-btn">
-                  <span>Let's Try</span>
+                  <span>Develpers Docs</span>
               </a>
           </div>
       </div>
