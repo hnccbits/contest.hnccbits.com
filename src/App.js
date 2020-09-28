@@ -96,7 +96,7 @@ class App extends Component {
         {data.map((data) => {
           return <RankList data={data} />;
         })} */}
-        <h1>
+        <h1 style={{ paddingTop: '50px' }}>
           <a className="lb-title" name="leaderboard" href="#leaderboard">
             LEADERBOARD
           </a>

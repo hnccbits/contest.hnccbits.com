@@ -3,6 +3,12 @@
   flex-direction: row;
   align-items: center;
   padding: 1rem;
+  background-image: linear-gradient(to bottom right,
+    rgb(255, 255, 255),
+  rgba(224, 223, 219, 0.517)), url('../../assets/header-img.svg');
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -13,10 +19,6 @@
   text-transform: uppercase;
   color: #87431d;
   margin: 1rem 2rem 4rem;
-  background-size: contain;
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-image: url('../../assets/header-img.svg');
 }
 .header-title-2 {
   font-size: 2.5rem;

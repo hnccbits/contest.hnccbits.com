@@ -81,7 +81,7 @@ const Contest = () => {
 
   return (
     <Card className={classes.main}>
-      <h1>
+      <h1 style={{ margin: '-40px 0 40px' }}>
         <a className="lb-title" name="contests" href="#contests">
           CONTEST
         </a>
