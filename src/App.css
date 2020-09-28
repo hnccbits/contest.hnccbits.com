@@ -25,7 +25,7 @@
 }
 .lb-title {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 300;
   color: #87431d;
   font-family: 'Roboto', sans-serif;
@@ -39,6 +39,6 @@
   box-shadow: 2px 3px #dbcbbd;
 }
 
-.MuiPaper-elevation1{
+.MuiPaper-elevation1 {
   box-shadow: none !important;
 }
