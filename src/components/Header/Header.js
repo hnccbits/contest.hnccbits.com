@@ -22,6 +22,4 @@ function Header() {
   );
 }
 
-// const headerStyle = {};
-
 export default Header;

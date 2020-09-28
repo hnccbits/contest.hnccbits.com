@@ -96,7 +96,11 @@ class App extends Component {
         {data.map((data) => {
           return <RankList data={data} />;
         })} */}
-        <h1 className="lb-title">LEADERBOARD</h1>
+        <h1>
+          <a className="lb-title" name="leaderboard" href="#leaderboard">
+            LEADERBOARD
+          </a>
+        </h1>
         <LeaderBoard />
         <Contest />
         <Blog />

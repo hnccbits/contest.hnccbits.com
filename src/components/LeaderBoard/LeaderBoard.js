@@ -20,21 +20,21 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
 const StyledTableCell = withStyles((theme) => ({
-    head: {
-      backgroundColor: theme.palette.common.black,
-      color: theme.palette.common.white,
-    },
-    body: {
-      fontSize: 14,
-    },
+  head: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  body: {
+    fontSize: 14,
+  },
 }))(TableCell);
-  
+
 const StyledTableRow = withStyles((theme) => ({
-    root: {
-        '&:nth-of-type(odd)': {
-        backgroundColor: theme.palette.action.hover,
-        },
+  root: {
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
     },
+  },
 }))(TableRow);
 
 const useStyles = makeStyles((theme) => ({
@@ -44,9 +44,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     padding: '2rem 1rem',
     [theme.breakpoints.down('sm')]: {
-        flexDirection: 'column',
-        maxWidth: '200',
-    }
+      flexDirection: 'column',
+      maxWidth: '200',
+    },
   },
   media: {
     height: 0,
@@ -66,21 +66,22 @@ const useStyles = makeStyles((theme) => ({
     margin: '1rem 2rem',
     padding: '1rem 1rem',
     '&:hover': {
-        borderColor:  '#87431d',
-        transition: '0.5s',
-        transform: 'translateY(-10px)'
+      borderColor: '#87431d',
+      transition: '0.5s',
+      transform: 'translateY(-10px)',
+      boxShadow: '5px 10px #dbcbbd',
     },
   },
   customLink: {
+    textDecoration: 'none',
+    color: '#87431d',
+    fontSize: '1.2rem',
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: '200',
+    '&:hover': {
       textDecoration: 'none',
-      color: '#87431d',
-      fontSize: '1.2rem',
-      fontFamily: 'Roboto, sans-serif',
-      fontWeight: '200',
-      '&:hover' : {
-          textDecoration: 'none',
-          color: '#d57149'
-      }
+      color: '#d57149',
+    },
   },
   table: {
     minWidth: '400',
@@ -96,66 +97,79 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    
     <Card className={classes.root}>
-      {Details.map((detail,index) => {
-        return(
-            <Card key={index} variant="outlined" className={classes.customCard}>
-            <CardHeader
-                title={detail.contestTitle}
-                subheader={detail.date}
-            />
+      {Details.map((detail, index) => {
+        return (
+          <Card key={index} variant="outlined" className={classes.customCard}>
+            <CardHeader title={detail.contestTitle} subheader={detail.date} />
             <CardContent>
-                <Typography variant="body2" color="textSecondary">
-                    <TableContainer component={Paper}>
-                        <Table className={classes.table} aria-label="customized table">
-                            <TableHead>
-                                <TableRow>
-                                <StyledTableCell>NAME</StyledTableCell>
-                                <StyledTableCell align="right">BATCH</StyledTableCell>
-                                <StyledTableCell align="right">BRANCH</StyledTableCell>
-                                <StyledTableCell align="right">SCORE</StyledTableCell>
-                                <StyledTableCell align="right">CodeChef_ID</StyledTableCell>
-                                </TableRow>
-                            </TableHead>
-                            {[...detail.topContestants].map((contestant,index) => {
-                                return (
-                                    <TableBody>
-                                        <StyledTableRow key={index}>
-                                        <StyledTableCell component="th" scope="row">
-                                            {contestant.name}
-                                        </StyledTableCell>
-                                        <StyledTableCell align="right">{contestant.batch}</StyledTableCell>
-                                        <StyledTableCell align="right">{contestant.branch}</StyledTableCell>
-                                        <StyledTableCell align="right">{contestant.score}</StyledTableCell>
-                                        <StyledTableCell align="right"><a href={contestant.codeChefId}>Click Here</a></StyledTableCell>
-                                        </StyledTableRow>
-                                    </TableBody>
-                                );
-                            })}
-                        </Table>
-                    </TableContainer>   
-                </Typography>
+              <Typography variant="body2" color="textSecondary">
+                <TableContainer component={Paper}>
+                  <Table
+                    className={classes.table}
+                    aria-label="customized table"
+                  >
+                    <TableHead>
+                      <TableRow>
+                        <StyledTableCell>NAME</StyledTableCell>
+                        <StyledTableCell align="right">BATCH</StyledTableCell>
+                        <StyledTableCell align="right">BRANCH</StyledTableCell>
+                        <StyledTableCell align="right">SCORE</StyledTableCell>
+                        <StyledTableCell align="right">
+                          CodeChef_ID
+                        </StyledTableCell>
+                      </TableRow>
+                    </TableHead>
+                    {[...detail.topContestants].map((contestant, index) => {
+                      return (
+                        <TableBody>
+                          <StyledTableRow key={index}>
+                            <StyledTableCell component="th" scope="row">
+                              {contestant.name}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {contestant.batch}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {contestant.branch}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {contestant.score}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              <a href={contestant.codeChefId}>Click Here</a>
+                            </StyledTableCell>
+                          </StyledTableRow>
+                        </TableBody>
+                      );
+                    })}
+                  </Table>
+                </TableContainer>
+              </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <IconButton
-                    className={clsx(classes.expand, {
-                    [classes.expandOpen]: expanded,
-                    })}
-                    onClick={handleExpandClick}
-                    aria-expanded={expanded}
-                    aria-label="show more"
-                >
+              <IconButton
+                className={clsx(classes.expand, {
+                  [classes.expandOpen]: expanded,
+                })}
+                onClick={handleExpandClick}
+                aria-expanded={expanded}
+                aria-label="show more"
+              >
                 <ExpandMoreIcon />
-                </IconButton>
+              </IconButton>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
-                <CardContent>
-                    <Typography><a className={classes.customLink} href={detail.listLink}>See the Complete List.</a></Typography>
-                </CardContent>
+              <CardContent>
+                <Typography>
+                  <a className={classes.customLink} href={detail.listLink}>
+                    See the Complete List.
+                  </a>
+                </Typography>
+              </CardContent>
             </Collapse>
-        </Card> 
-        )
+          </Card>
+        );
       })}
     </Card>
   );
