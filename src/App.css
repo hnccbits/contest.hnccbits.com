@@ -30,3 +30,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 3% auto;
 }
+
+.MuiPaper-elevation1{
+  box-shadow: none !important;
+}

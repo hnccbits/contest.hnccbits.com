@@ -1,5 +1,3 @@
-//jshint esversion: 6
-
 import React, { Component } from 'react';
 import Nav from './components/Navbar/Nav';
 import Header from './components/Header/Header';
