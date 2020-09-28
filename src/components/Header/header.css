@@ -3,38 +3,37 @@
   flex-direction: row;
   align-items: center;
   padding: 1rem;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  justify-content: space-between;
 }
 
 .header {
   text-align: left;
-  height: 30rem;
+  padding: 4rem 2rem 2rem 15rem;
+  width: 90vw;
+  height: 70vh;
   text-transform: uppercase;
   color: #87431d;
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 4rem;
+  background-size: contain;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/header-img.svg');
 }
-
-.header-image {
-  border-radius: 50%;
+.header-title-2 {
+  font-size: 2.5rem;
 }
-.header-image img {
-  height: 90%;
+.header-title-1 {
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 960px) {
-  .header-image img {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.4;
-  }
   .header-container {
     align-items: baseline;
     justify-content: center;
   }
   .header {
+    padding: 1rem 0;
     text-align: center;
-    background-image: url('../../assets/header-img.svg');
+    background-size: contain;
+    background-position: 0 100%;
   }
 }
