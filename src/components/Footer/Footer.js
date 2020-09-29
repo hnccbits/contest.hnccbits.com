@@ -7,7 +7,6 @@ class Footer extends React.Component {
       <div className="footer">
         <div className="footer-container">
           <div className="row">
-            {/* column 1 Info Needed */}
             <div className="col-md-3 col-sm-12 unactive">
               <h2>OUR TEAM</h2>
               <ul className="footer-list-item list-unstyled">
@@ -33,7 +32,6 @@ class Footer extends React.Component {
                 </li>
               </ul>
             </div>
-            {/* column 2 Info Needed*/}
             <div className="col-md-6 col-sm-12">
               <h4 className="footer-para-title">HnCC</h4>
               <p className="footer-para">
@@ -51,13 +49,15 @@ class Footer extends React.Component {
               </p>
               <div className="codechef-chapter">
                 <h3 style={{ textAlign: 'center' }}>
-                  <a href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri" target="noopener">
+                  <a
+                    href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri"
+                    target="noopener"
+                  >
                     <span>Codechef Chapter</span>
                   </a>
                 </h3>
               </div>
             </div>
-            {/* column 3 Info Needed */}
             <div className="col-md-3 col-sm-12">
               <h2>Social</h2>
               <ul className="footer-list-item list-unstyled">
@@ -68,19 +68,19 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <a href="https://github.com/hnccbits">
-                    <i class="fab fa-github" aria-hidden="true"></i>{' '}
+                    <i className="fab fa-github" aria-hidden="true"></i>{' '}
                     <span>Github</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/hnccbits/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>{' '}
+                    <i className="fab fa-instagram" aria-hidden="true"></i>{' '}
                     <span>Instagram</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/company/hnccbits/">
-                    <i class="fab fa-linkedin-in"></i> <span>LinkedIN</span>
+                    <i className="fab fa-linkedin-in"></i> <span>LinkedIN</span>
                   </a>
                 </li>
               </ul>
@@ -91,14 +91,14 @@ class Footer extends React.Component {
             &copy;{new Date().getFullYear()} HNCC BITS - All Rigths Reserved.
             <br />
             <span style={{ fontSize: '1.6rem', color: 'inherit' }}>
-              Made by HnCC Team with <i class="fas fa-heart"></i>
+              Made by HnCC Team with <i className="fas fa-heart"></i>
             </span>
           </p>
           <div className="footer-last-text">
-            <i class="fas fa-map-marked-alt"></i>
-            <h2>
+            <i className="fas fa-map-marked-alt"></i>
+            <h3>
               <a href="mailto:hnccbits@gmail.com">hnccbits@gmail.com</a>
-            </h2>
+            </h3>
           </div>
         </div>
       </div>

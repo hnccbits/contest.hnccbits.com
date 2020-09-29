@@ -13,7 +13,11 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
-    padding: '3rem'
+    padding: '3rem',
+    [theme.breakpoints.down('sm')]: {
+      padding: 0,
+      minWidth: '60%',
+    },
   },
   root: {
     display: 'flex',
@@ -28,8 +32,10 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
-      maxWidth: '200',
+      padding: '1rem',
+      minWidth: '90%',
     },
+    justifyContent: 'center',
   },
   details: {
     flexDirection: 'column',
@@ -42,9 +48,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   cover: {
-    width: '10rem',
+    margin: '0 auto',
+    padding: '1rem',
+    width: '15rem',
     height: 'auto',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   controls: {
     display: 'flex',
@@ -73,6 +81,11 @@ const useStyles = makeStyles((theme) => ({
       color: '#87431d',
       transition: 'all 0.3s ease-in-out',
     },
+    [theme.breakpoints.down('sm')]: {
+      border: '2px solid #dbcbbd',
+      minWidth: '15rem',
+    },
+    margin: '2px 0',
   },
 }));
 
@@ -88,19 +101,17 @@ const Contest = () => {
       </h1>
       {[...Details].map((detail, index) => {
         return (
-          <Card variant="outlined" className={classes.root}>
+          <Card key={index} variant="outlined" className={classes.root}>
             <img className={classes.cover} src={Image} alt="hNCC" />
             <div className={classes.details}>
               <CardContent className={classes.content}>
                 <Typography variant="h4">{detail.contestName}</Typography>
-                <Typography variant="h6" color="#dbcbbd">
-                  {detail.date}
-                </Typography>
+                <Typography variant="h5">{detail.date}</Typography>
                 <Typography
-                  variant="subtitle1"
+                  variant="h6"
                   color="textSecondary"
                   component="p"
-                  style={{ textAlign: 'left' }}
+                  className="contestContent"
                 >
                   {detail.description}
                 </Typography>

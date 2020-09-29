@@ -12,11 +12,11 @@ class Blog extends React.Component {
           </div>
         </div>
 
-        <div class="blog__box-content">
-          <h2 class="blog__box-heading">
+        <div className="blog__box-content">
+          <h2 className="blog__box-heading">
             Check out our <span>Editorial Blog</span>
           </h2>
-          <a href="https://blog.hnccbits.com/" class="blog__box-btn">
+          <a href="https://blog.hnccbits.com/" className="blog__box-btn">
             <span>Develpers Docs</span>
           </a>
         </div>
