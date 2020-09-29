@@ -29,11 +29,9 @@ ul {
 .nav-logo {
   display: flex;
   justify-self: start;
-  cursor: pointer;
   height: 100%;
   width: auto;
   margin: 0 2rem;
-  cursor: none;
 }
 .nav-menu {
   display: flex;

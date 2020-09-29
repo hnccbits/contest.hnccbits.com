@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
   customCard: {
     margin: '1rem 1rem',
     padding: '1rem 1rem',
-    boxShadow:'.2rem 1rem .5rem #dbcbbd',
+    boxShadow: '.2rem 1rem .5rem #dbcbbd',
 
     '&:hover': {
       borderColor: '#87431d',
@@ -105,49 +105,45 @@ export default function RecipeReviewCard() {
           <Card key={index} variant="outlined" className={classes.customCard}>
             <CardHeader title={detail.contestTitle} subheader={detail.date} />
             <CardContent>
-              <Typography variant="body2" color="textSecondary">
-                <TableContainer component={Paper}>
-                  <Table
-                    className={classes.table}
-                    aria-label="customized table"
-                  >
-                    <TableHead>
-                      <TableRow>
-                        <StyledTableCell>NAME</StyledTableCell>
-                        <StyledTableCell align="right">BATCH</StyledTableCell>
-                        <StyledTableCell align="right">BRANCH</StyledTableCell>
-                        <StyledTableCell align="right">SCORE</StyledTableCell>
-                        <StyledTableCell align="right">
-                          CodeChef_ID
-                        </StyledTableCell>
-                      </TableRow>
-                    </TableHead>
+              <Typography variant="body2" color="textSecondary" />
+              <TableContainer component={Paper}>
+                <Table className={classes.table} aria-label="customized table">
+                  <TableHead>
+                    <TableRow>
+                      <StyledTableCell>NAME</StyledTableCell>
+                      <StyledTableCell align="right">BATCH</StyledTableCell>
+                      <StyledTableCell align="right">BRANCH</StyledTableCell>
+                      <StyledTableCell align="right">SCORE</StyledTableCell>
+                      <StyledTableCell align="right">
+                        CodeChef_ID
+                      </StyledTableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
                     {[...detail.topContestants].map((contestant, index) => {
                       return (
-                        <TableBody>
-                          <StyledTableRow key={index}>
-                            <StyledTableCell component="th" scope="row">
-                              {contestant.name}
-                            </StyledTableCell>
-                            <StyledTableCell align="right">
-                              {contestant.batch}
-                            </StyledTableCell>
-                            <StyledTableCell align="right">
-                              {contestant.branch}
-                            </StyledTableCell>
-                            <StyledTableCell align="right">
-                              {contestant.score}
-                            </StyledTableCell>
-                            <StyledTableCell align="right">
-                              <a href={contestant.codeChefId}>Click Here</a>
-                            </StyledTableCell>
-                          </StyledTableRow>
-                        </TableBody>
+                        <StyledTableRow key={index}>
+                          <StyledTableCell component="th" scope="row">
+                            {contestant.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {contestant.batch}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {contestant.branch}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {contestant.score}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a href={contestant.codeChefId}>Click Here</a>
+                          </StyledTableCell>
+                        </StyledTableRow>
                       );
                     })}
-                  </Table>
-                </TableContainer>
-              </Typography>
+                  </TableBody>
+                </Table>
+              </TableContainer>
             </CardContent>
 
             <CardActions disableSpacing>
@@ -162,7 +158,7 @@ export default function RecipeReviewCard() {
                 <ExpandMoreIcon />
               </IconButton>
             </CardActions>
-            
+
             <Collapse in={expanded} timeout="auto" unmountOnExit>
               <CardContent>
                 <Typography>
@@ -172,7 +168,6 @@ export default function RecipeReviewCard() {
                 </Typography>
               </CardContent>
             </Collapse>
-            
           </Card>
         );
       })}
