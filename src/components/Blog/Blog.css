@@ -16,9 +16,9 @@
 }
 
 .hncc__hex-box {
-  transform: translate(-38%, 30%);
+  transform: translate(-37%, 30%);
   background-color: #1a2023;
-  width: 80%;
+  width: 90%;
   padding: 5% 8%;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
@@ -77,10 +77,6 @@
   .blog__box-btn:visited {
     width: 70%;
     padding: 3%;
-  }
-
-  .hncc__hex-box {
-    width: 100%;
   }
 }
 
