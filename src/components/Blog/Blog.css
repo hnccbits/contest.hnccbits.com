@@ -5,7 +5,7 @@
   width: 50%;
   margin: 2rem auto;
   border: 8px solid #3d3d3d;
-  height: 23rem;
+  height: 26rem;
 }
 
 .blog__box-logo {
@@ -51,9 +51,10 @@
   background-color: #87431d;
   color: #dbcbbd;
   font-size: 1.3rem;
-  padding: 2% 1%;
-  width: 40%;
-  transform: translate(80%, 50%);
+  padding: 2% 3%;
+  width: 50%;
+  margin-top: 2rem;
+  align-self: center;
   border-radius: 6px;
   border: 1px solid #87431d;
   transition: all 0.2s ease-out;
@@ -68,13 +69,25 @@
 
 @media (max-width: 800px) {
   .blog__box {
-    height: 30rem;
+    height: 28rem;
+    width: 70%;
+  }
+
+  .blog__box-btn:link,
+  .blog__box-btn:visited {
+    width: 70%;
+    padding: 3%;
+  }
+
+  .hncc__hex-box {
+    width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .blog__box {
     flex-direction: column;
+    height: 30rem;
     width: 90%;
     border: 5px solid #3d3d3d;
   }
@@ -106,7 +119,7 @@
   .blog__box-btn:visited {
     font-size: 1.1rem;
     padding: 2.5% 1%;
-    width: 50%;
-    transform: translate(50%, 50%);
+    width: 60%;
+    margin-top: 1rem;
   }
 }
