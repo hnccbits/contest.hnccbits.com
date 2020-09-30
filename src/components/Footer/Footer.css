@@ -5,7 +5,6 @@
   padding: 3rem 1rem 1.5rem;
   color: #dbcbbd;
   text-decoration: none;
-  margin-bottom: 1rem;
   justify-content: space-between;
   display: flex;
 }
@@ -15,6 +14,7 @@
 .col-sm-12 {
   border-right: 2px solid #dbcbbd;
 }
+
 li {
   padding: 0.6rem 0;
 }
@@ -113,5 +113,11 @@ li a:hover {
   }
   .unactive {
     border-top: none;
+  }
+
+  .footer-list-item {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
   }
 }

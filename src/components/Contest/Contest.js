@@ -116,7 +116,9 @@ const Contest = () => {
                   {detail.description}
                 </Typography>
               </CardContent>
+
               <div className={classes.controls}>
+              {/*              
                 <IconButton className={classes.icnBtn} aria-label="download">
                   <GetAppIcon />
                   <Typography variant="h6">
@@ -125,6 +127,8 @@ const Contest = () => {
                     </a>
                   </Typography>
                 </IconButton>
+              */}  
+
                 <IconButton className={classes.icnBtn} aria-label="register">
                   <Typography variant="h6">Register</Typography>
                 </IconButton>

@@ -7,7 +7,7 @@ class Footer extends React.Component {
       <div className="footer">
         <div className="footer-container">
           <div className="row">
-            <div className="col-md-3 col-sm-12 unactive">
+            <div className="our-item col-md-3 col-sm-12 unactive">
               <h2>OUR TEAM</h2>
               <ul className="footer-list-item list-unstyled">
                 <li>

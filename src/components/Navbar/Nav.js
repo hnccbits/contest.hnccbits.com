@@ -26,8 +26,10 @@ class Nav extends React.Component {
             );
           })}
         </ul>
-        <img className="nav-logo cc-logo" src={CCLogo} alt="CodeChef-Logo" />
-        <img src={HNCCLogo} className="nav-logo hncc-logo" alt="HNCC-Logo" />
+        
+        <img src={CCLogo} alt="CodeChef-Logo" className="nav-logo cc-logo"/>
+
+        <img src={HNCCLogo} alt="HNCC-Logo" className="nav-logo hncc-logo"/>
 
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
