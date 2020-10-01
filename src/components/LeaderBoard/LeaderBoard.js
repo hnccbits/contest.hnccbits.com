@@ -92,10 +92,15 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RecipeReviewCard() {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  //Made expanded state to be an array with default false elements based on the length of your Details cards.
+  const [expanded, setExpanded] = React.useState(Array(Details.length).fill(false));
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
+  const handleExpandClick = (i) => {
+    //pass card index and changed the state of respective card index for expanding
+    let _tempExpanded = [...expanded]
+    _tempExpanded[i] = !expanded[i]
+
+    setExpanded(_tempExpanded);
   };
 
   return (
@@ -145,21 +150,20 @@ export default function RecipeReviewCard() {
                 </Table>
               </TableContainer>
             </CardContent>
-
             <CardActions disableSpacing>
               <IconButton
                 className={clsx(classes.expand, {
-                  [classes.expandOpen]: expanded,
+                  [classes.expandOpen]: expanded[index],
                 })}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
+                onClick={() => handleExpandClick(index)}
+                aria-expanded={expanded[index]}
                 aria-label="show more"
               >
                 <ExpandMoreIcon />
               </IconButton>
             </CardActions>
 
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
+            <Collapse id={`card-${index}`} in={expanded[index]} timeout="auto" unmountOnExit>
               <CardContent>
                 <Typography>
                   <a className={classes.customLink} href={detail.listLink}>
