@@ -94,8 +94,8 @@ class Footer extends React.Component {
               Made by HnCC Team with <i className="fas fa-heart"></i>
             </span>
           </p>
-          <div className="footer-last-text">
-            <i className="fas fa-map-marked-alt"></i>
+          <div className="footer-last-text"><a href="https://goo.gl/maps/qeEcQMWBvRuAgUNJ6">
+            <i className="fas fa-map-marked-alt"></i></a>
             <h3>
               <a href="mailto:hnccbits@gmail.com">hnccbits@gmail.com</a>
             </h3>
