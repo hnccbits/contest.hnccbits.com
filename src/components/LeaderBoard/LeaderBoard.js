@@ -18,7 +18,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 const StyledTableCell = withStyles((theme) => ({
   head: {
     backgroundColor: theme.palette.common.black,
@@ -93,8 +93,13 @@ const useStyles = makeStyles((theme) => ({
 export default function RecipeReviewCard() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
+  const [selectedIndex, setSelectedIndex] = React.useState("");
+  const handleExpandClick = (index) => {
+    if (selectedIndex === index) {
+      setSelectedIndex("")
+    } else {
+      setSelectedIndex(index)
+    }
     setExpanded(!expanded);
   };
 
@@ -151,15 +156,14 @@ export default function RecipeReviewCard() {
                 className={clsx(classes.expand, {
                   [classes.expandOpen]: expanded,
                 })}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
+                onClick={()=>{handleExpandClick(index)}}
                 aria-label="show more"
               >
-                <ExpandMoreIcon />
+                {index === selectedIndex ? <ExpandLessIcon /> : <ExpandMoreIcon />}
               </IconButton>
             </CardActions>
 
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
+            <Collapse in={index === selectedIndex} timeout="auto" unmountOnExit>
               <CardContent>
                 <Typography>
                   <a className={classes.customLink} href={detail.listLink}>
