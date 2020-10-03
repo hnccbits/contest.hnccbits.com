@@ -112,6 +112,10 @@
 .s-links{
   margin: 1rem 1rem 0rem 0rem;
   font-size: 1.5rem;
+  color: white;
+}
+.s-links:hover{
+  color: #b19374;
 }
 .slinks:hover{
   color: #b19374;

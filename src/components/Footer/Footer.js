@@ -29,10 +29,10 @@ class Footer extends React.Component {
           <div className="footer-socials">
               <div className="content-header">Start a Conversation</div>
               <div className="footer-social-links">
-              <a href="https://www.facebook.com/hnccbits" className="s-links"><i className="fab fa-facebook-f slinks"></i></a>
-              <a href="https://www.linkedin.com/company/hnccbits/" className="s-links"><i className="fab fa-linkedin-in slinks"></i></a>
-              <a href="https://github.com/hnccbits" className="s-links"><i className="fab fa-github-alt slinks"></i></a>
-              <a href="https://www.instagram.com/hnccbits/" className="s-links"><i className="fab fa-instagram slinks"></i></a>
+              <a href="https://www.facebook.com/hnccbits" className="s-links"><i className="fab fa-facebook-f " ></i></a>
+              <a href="https://www.linkedin.com/company/hnccbits/" className="s-links"><i className="fab fa-linkedin-in "></i></a>
+              <a href="https://github.com/hnccbits" className="s-links"><i className="fab fa-github-alt "></i></a>
+              <a href="https://www.instagram.com/hnccbits/" className="s-links"><i className="fab fa-instagram "></i></a>
               </div>
               <div className="footer-mail-top">Mail us: <a href="mailto:hnccbits@gmail.com" className="footer-mail ">hnccbits@gmail.com</a></div>
               <address><a href="https://goo.gl/maps/w8uxE3hTDU7JBgcu9" className="footer-map"><i className="fas fa-map-marked-alt slinks"></i></a> &nbsp; Hackathon and Coding Club, IT Building, BIT Sindri, Sindri, 828123</address>
