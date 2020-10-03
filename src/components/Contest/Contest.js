@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import GetAppIcon from '@material-ui/icons/GetApp';
+//import GetAppIcon from '@material-ui/icons/GetApp';
 import Details from './Details';
 
 const useStyles = makeStyles((theme) => ({
@@ -53,6 +53,7 @@ const useStyles = makeStyles((theme) => ({
     width: '15rem',
     height: 'auto',
     alignItems: 'center',
+    float: 'left'
   },
   controls: {
     display: 'flex',
