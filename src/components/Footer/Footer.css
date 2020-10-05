@@ -1,123 +1,204 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.footer {
-  background: rgb(72, 42, 23);
-  padding: 3rem 1rem 1.5rem;
-  color: #dbcbbd;
-  text-decoration: none;
-  justify-content: space-between;
+.footer-start{
+  display: block;
+  background-color:rgb(72, 42, 23);
+  height: fit-content;
+}
+.footer{
+  text-align: initial;
+  width: 100%;
+  height: 32rem;
+  margin-bottom: 2rem;
   display: flex;
+  flex-direction: row;
+  color: white;
+  transition: all 1s ease-out;
+  overflow: none;
+  
 }
-.row {
-  margin: 2rem 0;
-}
-.col-sm-12 {
-  border-right: 2px solid #dbcbbd;
-}
+.footer-teams{ 
+  padding-top: 3rem;
+  padding-left: 5rem;
+  width: 20%;
+  height: inherit;
 
-li {
-  padding: 0.6rem 0;
 }
-.list-unstyled li a {
-  color: #dbcbbd;
-  padding: 0.4rem;
+.teams-list{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+.t-link{
+  margin: 1rem 0rem 1rem 0rem ;
+  color: white;
+  font-weight: normal !important;
+  font-size: large;
+}
+.t-link:hover{
+  color: white !important;
   text-decoration: none;
+}
+.t-link:hover::before{
+  width: 6% !important;
+  height: 3px !important;
+}
+.footer-content{
+  padding-top: 3rem;
+  padding-left: 5rem;
+  text-align: left;
+  width: 60%;
+  overflow: none;
+}
+.content-header{
   font-size: larger;
-  font-weight: 100;
+  font-weight: bolder;
+  cursor: default;
 }
-li a:hover {
-  background-color: #dbcbbd;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
+
+.codechef{
+  color: white;
   text-decoration: none;
-  color: #87431d;
+  font-weight: bolder;
+  font-size: large;
 }
-.footer-para-title {
+.codechef:hover{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 1rem;
+}
+.codechef::before{
+  content: "";
+  width: 0px;
+  height: 0px;
+  transition: all 1s ease-out;
+  margin-top: 1.5rem;
+}
+.codechef:hover::before{
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 20%;
+  height: 1px;
+  margin-top: 1.5rem;
+}
+.content-para{
+  /* padding-right: 2rem; */
+  margin-top: 1rem;
+  width: 70%;
+  color: #dbcbbd;
+  cursor: default;
+}
+.para-italic{
+  font-style:italic;
+  
+}
+.footer-socials{
+  width: 30%;
+  height: inherit;
+  padding-top: 3rem;
+
+}
+.footer-social-links{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.s-links{
+  margin: 1rem 1rem 0rem 0rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.s-links:hover{
+  color: #b19374;
+}
+.slinks:hover{
+  color: #b19374;
+}
+address{
+  font-style: italic;
+  padding-right: 4rem;
+  margin-top: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+.footer-map{
+  font-size: x-large;
+}
+.footer-end{
+  padding-bottom: 4rem;
+  color: white;
   text-align: center;
+  user-select: none;
+  margin-top: 2rem;
 }
-.col-sm-12 h2 {
-  margin-top: 3%;
-  font-weight: 500;
-  text-align: left;
+.footer-mail-top{
+  margin-top: 2rem;
+
 }
-.activity-header {
-  text-align: center;
+.footer-mail{
+  font-weight: bold;
+  
 }
-.footer-list-item {
-  text-align: left;
-  font-size: 1.2rem;
-}
-.footer-last-text {
-  font-size: 3rem;
-  text-decoration: none;
-  color: #dbcbbd;
-}
-.footer-last-text i {
-  padding: 0.6rem;
-  border-radius: 10px;
-}
-.footer-last-text i:hover {
-  background-color: #dbcbbd;
-  color: #87431d;
+.footer-mail:hover{
+  color:  #b19374;
 }
 
-.footer-last-text a {
-  text-decoration: none;
-  color: #dbcbbd;
-  padding: 0.6rem;
-  border-radius: 10px;
+.footer-mail::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #b19374;
+  width: 0px;
+  height: 1px;
+  transition: all 1s ease;
+  margin-top: 1.3rem;
 }
-.footer-last-text a:hover {
-  background-color: #dbcbbd;
-  color: #87431d;
+.footer-mail:hover::before{
+  width: 10%;
+  height: 1px;
+  
 }
-.footer-para {
-  text-align: left;
+.s-links,.footer-mail,.footer-map{
+  color: white;
+  text-decoration: none !important;
 }
-.codechef-chapter h3 a {
-  text-decoration: none;
-  color: #dbcbbd;
-  padding: 0.6rem;
-  text-transform: unset;
-  text-decoration: underline;
-}
-.codechef-chapter h3 a:hover {
-  background-color: #dbcbbd;
-  color: #87431d;
-  border-radius: 10px;
-}
-@media screen and (max-width: 960px) {
-  .footer {
-    padding: 1rem 1rem 1.5rem;
 
+@media screen and (max-width:960px){
+  .footer{
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 1rem;
   }
-  .row {
-    text-align: left;
+  .footer-teams{
+    width: 100%;
+    height: 20%;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
   }
-  .header-image {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.4;
-  }
-  .footer-para-title {
-    text-align: left;
-  }
-  .footer-para {
-    text-align: justify;
-  }
-  .col-sm-12 {
-    border-top: 10px dotted #dbcbbd;
-    padding-top: 1.5rem;
-    border-right: none;
-    padding: 3rem 0;
-  }
-  .unactive {
-    border-top: none;
-  }
-
-  .footer-list-item {
-    display: flex;
+  .teams-list{
     flex-direction: row;
-    margin-right: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-content{
+    width: 100%;
+    padding-left: 1.5rem;
+  }
+  .content-para{
+    width: 90%;
+  }
+  .footer-socials{
+    padding-left: 1.5rem;
+    width: 100%;
+  }
+  .footer-end{
+    margin-top: 3rem;
+    padding-bottom: 1rem;
   }
 }
