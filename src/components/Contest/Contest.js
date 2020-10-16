@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
       minWidth: '90%',
     },
     justifyContent: 'center',
+    alignItems: 'flex-start'
   },
   details: {
     flexDirection: 'column',
