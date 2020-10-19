@@ -1,110 +1,116 @@
 const LeaderBoardDetail = [
     {
-        contestTitle: "Monsoon Code",
-        date : "September 14, 2016",
+        contestTitle: "The Monsoon Code",
+        date : "July 30, 2020",
         listLink : "/",
         topContestants: [
             {
-                name: 'ABC',
-                score: '200',
-                branch: 'IT',
+                name: 'Tanay Kumar Deo',
+                score: '500',
+                branch: 'EE',
                 batch: '2k19',
-                codeChefId: 'qwerty'
+                codeChefId: 'tanay_deo388'
             },
             {
-                name: 'XYZ',
-                score: '190',
-                branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
+                name: 'B Jagdish Reddy',
+                score: 'TBA..',
+                branch: 'CSE',
+                batch: '2k18',
+                codeChefId: 'rgoewedky'
             },
             {
-                name: 'PQR',
-                score: '180',
-                branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
+                name: 'Shailesh Aanand',
+                score: 'TBA..',
+                branch: 'ECE',
+                batch: '2k18',
+                codeChefId: 'shaileshaanand'
             },
             {
-                name: 'MNO',
-                score: '170',
+                name: 'Keshav Kumar',
+                score: '430',
                 branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
+                batch: '2k16',
+                codeChefId: 'cooldude96'
             },
+            {
+                name: 'Haarish Khan',
+                score: '430',
+                branch: 'IT',
+                batch: '2k17',
+                codeChefId: 'dante23'
+            }
 
         ]
     },
     {
-        contestTitle: "Monsoon Code",
-        date : "September 14, 2016",
+        contestTitle: "BIT Code: August Round",
+        date : "August 30, 2020",
         listLink : "/",
         topContestants: [
             {
-                name: 'ABC',
+                name: 'Rahul Kumar',
                 score: '300',
                 branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
+                batch: '2k17',
+                codeChefId: 'rahbittu_10'
             },
             {
-                name: 'XYZ',
-                score: '290',
+                name: 'Arshad Jamal',
+                score: '300',
                 branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
+                batch: '2k18',
+                codeChefId: 'doctorstrange8'
             },
             {
-                name: 'PQR',
-                score: '180',
-                branch: 'IT',
+                name: 'Piyush Gupta',
+                score: '300',
+                branch: 'CSE',
                 batch: '2k19',
-                codeChefId: 'qwerty'
+                codeChefId: 'guptapiyush233'
             },
             {
-                name: 'MNO',
-                score: '70',
+                name: 'Charu Kashyap',
+                score: '220',
+                branch: 'ECE',
+                batch: '2k17',
+                codeChefId: 'charu_0307'
+            },
+            {
+                name: 'Shivam Kedia',
+                score: '220',
                 branch: 'IT',
                 batch: '2k19',
-                codeChefId: 'qwerty'
-            },
+                codeChefId: 'skshivamkedia'
+            }
 
         ]
     },
     {
-        contestTitle: "Monsoon Code",
-        date : "September 14, 2016",
+        contestTitle: "BIT Code: September Round",
+        date : "October 1, 2020",
         listLink : "/",
         topContestants: [
             {
-                name: 'ABC',
+                name: 'Arshad Jamal',
+                score: '300',
+                branch: 'IT',
+                batch: '2k18',
+                codeChefId: 'doctorstrange8'
+            },
+            {
+                name: 'Gaurav Kumar',
                 score: '100',
                 branch: 'IT',
                 batch: '2k19',
-                codeChefId: 'qwerty'
+                codeChefId: 'gaurav_jfk'
             },
             {
-                name: 'XYZ',
-                score: '90',
+                name: 'Sapan Ravidas',
+                score: '100',
                 branch: 'IT',
                 batch: '2k19',
-                codeChefId: 'qwerty'
-            },
-            {
-                name: 'PQR',
-                score: '80',
-                branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
-            },
-            {
-                name: 'MNO',
-                score: '70',
-                branch: 'IT',
-                batch: '2k19',
-                codeChefId: 'qwerty'
-            },
-
+                codeChefId: 'sapan1712'
+            }
         ]
     },
 

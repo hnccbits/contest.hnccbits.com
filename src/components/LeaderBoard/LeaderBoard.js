@@ -141,7 +141,7 @@ export default function RecipeReviewCard() {
                             {contestant.score}
                           </StyledTableCell>
                           <StyledTableCell align="right">
-                            <a href={contestant.codeChefId}>Click Here</a>
+                            <a href={"https://www.codechef.com/users/" + contestant.codeChefId}>Click Here</a>
                           </StyledTableCell>
                         </StyledTableRow>
                       );

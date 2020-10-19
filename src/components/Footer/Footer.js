@@ -56,7 +56,7 @@ class Footer extends React.Component {
                 again we thank you all.
               </p>
               <a
-                href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindrin"
+                href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri"
                 className="codechef"
               >
                 CodeChef Chapter
