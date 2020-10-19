@@ -12,8 +12,15 @@ const LeaderBoardDetail = [
                 codeChefId: 'tanay_deo388'
             },
             {
+                name: 'B Jagdish Reddy',
+                score: 'TBA..',
+                branch: 'CSE',
+                batch: '2k18',
+                codeChefId: 'rgoewedky'
+            },
+            {
                 name: 'Shailesh Aanand',
-                score: '500',
+                score: 'TBA..',
                 branch: 'ECE',
                 batch: '2k18',
                 codeChefId: 'shaileshaanand'
@@ -31,13 +38,6 @@ const LeaderBoardDetail = [
                 branch: 'IT',
                 batch: '2k17',
                 codeChefId: 'dante23'
-            },
-            {
-                name: 'B Jagdish Reddy',
-                score: '300',
-                branch: 'CSE',
-                batch: '2k18',
-                codeChefId: 'rgoewedky'
             }
 
         ]
