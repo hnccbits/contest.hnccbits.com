@@ -13,14 +13,14 @@ const LeaderBoardDetail = [
             },
             {
                 name: 'B Jagdish Reddy',
-                score: 'TBA..',
+                score: '500',
                 branch: 'CSE',
                 batch: '2k18',
                 codeChefId: 'rgoewedky'
             },
             {
                 name: 'Shailesh Aanand',
-                score: 'TBA..',
+                score: '500',
                 branch: 'ECE',
                 batch: '2k18',
                 codeChefId: 'shaileshaanand'
@@ -92,24 +92,38 @@ const LeaderBoardDetail = [
         topContestants: [
             {
                 name: 'Arshad Jamal',
-                score: '300',
+                score: '400',
                 branch: 'IT',
                 batch: '2k18',
                 codeChefId: 'doctorstrange8'
             },
             {
                 name: 'Gaurav Kumar',
-                score: '100',
-                branch: 'IT',
-                batch: '2k19',
+                score: '200',
+                branch: 'CSE',
+                batch: '2k17',
                 codeChefId: 'gaurav_jfk'
             },
             {
                 name: 'Sapan Ravidas',
+                score: '200',
+                branch: 'CSE',
+                batch: '2k18',
+                codeChefId: 'sapan1712'
+            },
+            {
+                name: 'Utkarsh Raj',
+                score: '100',
+                branch: 'CSE',
+                batch: '2k17',
+                codeChefId: 'lorem_ipsum_73'
+            },
+            {
+                name: 'Shivam Kedia',
                 score: '100',
                 branch: 'IT',
                 batch: '2k19',
-                codeChefId: 'sapan1712'
+                codeChefId: 'skshivamkedia'
             }
         ]
     },
