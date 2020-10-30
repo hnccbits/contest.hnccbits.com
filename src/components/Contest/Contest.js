@@ -80,6 +80,7 @@ const useStyles = makeStyles((theme) => ({
       background: '#dbcbbd',
       color: '#87431d',
       transition: 'all 0.3s ease-in-out',
+      textDecoration: 'none'
     },
     [theme.breakpoints.down('sm')]: {
       border: '2px solid #dbcbbd',
@@ -129,7 +130,7 @@ const Contest = () => {
                 </IconButton>
               */}  
 
-                <IconButton className={classes.icnBtn} aria-label="register">
+                <IconButton className={classes.icnBtn} aria-label="register" href={detail.registrationLink}>
                   <Typography variant="h6">Register</Typography>
                 </IconButton>
                 <IconButton className={classes.icnBtn} aria-label="">
