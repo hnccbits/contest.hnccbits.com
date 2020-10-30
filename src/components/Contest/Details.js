@@ -18,6 +18,12 @@ const Details = [
     description: 'Yeah we know that it is October. Chef arrived late. Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
     image: { Image },
   },
+  {
+    contestName: 'BIT Code: October Round',
+    date: 'October 30, 2020',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+  }
 ];
 
 export default Details;
