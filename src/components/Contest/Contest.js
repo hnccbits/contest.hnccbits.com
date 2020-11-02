@@ -133,8 +133,8 @@ const Contest = () => {
                 <IconButton className={classes.icnBtn} aria-label="register" href={detail.registrationLink}>
                   <Typography variant="h6">Register</Typography>
                 </IconButton>
-                <IconButton className={classes.icnBtn} aria-label="">
-                  <Typography variant="h6">How To Register</Typography>
+                <IconButton className={classes.icnBtn} aria-label="contest-link" href={"https://www.codechef.com/" + detail.contestCode}>
+                  <Typography variant="h6">Contest Link</Typography>
                 </IconButton>
               </div>
             </div>
