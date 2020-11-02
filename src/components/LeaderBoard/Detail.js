@@ -1,48 +1,5 @@
 const LeaderBoardDetail = [
     {
-        contestTitle: "The Monsoon Code",
-        date : "July 30, 2020",
-        listLink : "/",
-        topContestants: [
-            {
-                name: 'Tanay Kumar Deo',
-                score: '500',
-                branch: 'EE',
-                batch: '2k19',
-                codeChefId: 'tanay_deo388'
-            },
-            {
-                name: 'B Jagdish Reddy',
-                score: '500',
-                branch: 'CSE',
-                batch: '2k18',
-                codeChefId: 'rgoewedky'
-            },
-            {
-                name: 'Shailesh Aanand',
-                score: '500',
-                branch: 'ECE',
-                batch: '2k18',
-                codeChefId: 'shaileshaanand'
-            },
-            {
-                name: 'Keshav Kumar',
-                score: '430',
-                branch: 'IT',
-                batch: '2k16',
-                codeChefId: 'cooldude96'
-            },
-            {
-                name: 'Haarish Khan',
-                score: '430',
-                branch: 'IT',
-                batch: '2k17',
-                codeChefId: 'dante23'
-            }
-
-        ]
-    },
-    {
         contestTitle: "BIT Code: August Round",
         date : "August 30, 2020",
         listLink : "/",
@@ -124,6 +81,48 @@ const LeaderBoardDetail = [
                 branch: 'IT',
                 batch: '2k19',
                 codeChefId: 'skshivamkedia'
+            }
+        ]
+    },
+    {
+        contestTitle: "BIT Code: October Round",
+        date : "October 30, 2020",
+        listLink : "/",
+        topContestants: [
+            {
+                name: 'Shyam Singh',
+                score: '500',
+                branch: 'CSE',
+                batch: '2k18',
+                codeChefId: 'd_evilal'
+            },
+            {
+                name: 'Suveen Kumar',
+                score: '500',
+                branch: 'IT',
+                batch: '2k16',
+                codeChefId: 'usernotfound'
+            },
+            {
+                name: 'Arshad Jamal',
+                score: '500',
+                branch: 'IT',
+                batch: '2k18',
+                codeChefId: 'doctorstrange8'
+            },
+            {
+                name: 'Utkarsh Raj',
+                score: '500',
+                branch: 'CSE',
+                batch: '2k17',
+                codeChefId: 'lorem_ipsum_73'
+            },
+            {
+                name: 'Piyush Gupta',
+                score: '401',
+                branch: 'CSE',
+                batch: '2k19',
+                codeChefId: 'guptapiyush233'
             }
         ]
     },
