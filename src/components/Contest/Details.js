@@ -6,7 +6,8 @@ const Details = [
     description: 'In association with TAP Cell, BIT Sindri. Part of the Codechef Chapter Application Process',
     image: { Image },
     registrationLink: 'https://forms.gle/XxggLGrzqrx1uc4E6',
-    contestCode: 'TMSC2020'
+    contestCode: 'TMSC2020',
+    editorialCode: '2020-07-31-tmsc'
   },
   {
     contestName: 'BIT Code: August Round',
@@ -14,7 +15,8 @@ const Details = [
     description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
     image: { Image },
     registrationLink: 'https://forms.gle/bJzJptcNS5HgQYV69',
-    contestCode: 'COBI2020'
+    contestCode: 'COBI2020',
+    editorialCode: '2020-08-30-BITCodeAug_Editorial'
   },
   {
     contestName: 'BIT Code: September Round',
@@ -22,7 +24,8 @@ const Details = [
     description: 'Yeah we know that it is October. Chef arrived late. Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
     image: { Image },
     registrationLink: 'https://bit.ly/bitcodesep',
-    contestCode: 'BTCD2020'
+    contestCode: 'BTCD2020',
+    editorialCode: '2020-10-01-BITCode-Sep-Editorial'
   },
   {
     contestName: 'BIT Code: October Round',
@@ -30,7 +33,8 @@ const Details = [
     description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
     image: { Image },
     registrationLink: 'https://bit.ly/bitcdoct',
-    contestCode: 'BITE2020'
+    contestCode: 'BITE2020',
+    editorialCode: '404'
   }
 ];
 
