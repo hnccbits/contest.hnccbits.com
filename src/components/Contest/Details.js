@@ -34,7 +34,7 @@ const Details = [
     image: { Image },
     registrationLink: 'https://bit.ly/bitcdoct',
     contestCode: 'BITE2020',
-    editorialCode: '404'
+    editorialCode: '2020-11-03-BITCode-Oct-Editorial'
   }
 ];
 
