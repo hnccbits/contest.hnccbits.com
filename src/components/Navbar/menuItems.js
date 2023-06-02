@@ -14,6 +14,11 @@ const MenuItem = [
     url: 'https://blog.hnccbits.com/',
     class: 'nav-links',
   },
+  {
+    title: 'Register Now',
+    url: 'https://forms.gle/8WPFPqsm7eL852ts9',
+    class: 'nav-register-btn',
+  }
 ];
 
 export default MenuItem;

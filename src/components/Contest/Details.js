@@ -3,7 +3,7 @@ const Details = [
   {
     contestName: 'The Monsoon Code',
     date: 'July 30, 2020',
-    description: 'In association with TAP Cell, BIT Sindri. Part of the Codechef Chapter Application Process',
+    description: 'In association with TAP Cell, BIT Sindri. Part of the Contest Page Application Process',
     image: { Image },
     registrationLink: 'https://forms.gle/XxggLGrzqrx1uc4E6',
     contestCode: 'TMSC2020',

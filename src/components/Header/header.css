@@ -24,8 +24,13 @@
 }
 .header-title-2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 600;
+}
+.header-title-3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 960px) {

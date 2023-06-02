@@ -1,6 +1,4 @@
 .navbar {
-  margin-top: .6rem;
-  margin-bottom: 1rem;
   background: rgb(72, 42, 23);
   /*background: linear-gradient(
     90deg,
@@ -12,14 +10,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  width: 92%;
-  margin-left: 4%;
-  margin-right: 4%;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 1.2rem;
   position: fixed;
   z-index: 1000;
   border: solid .1rem #dbcbbd;
+}
+.main{
+  width: 100%;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
 }
 
 ul {
@@ -32,23 +34,23 @@ ul {
   justify-self: start;
   height: 90%;
   width: auto;
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 .nav-menu {
   display: flex;
   flex-direction: row;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 50%;
   justify-content: flex-start;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .nav-links {
   color: #dbcbbd;
   text-decoration: none;
+  font-size: 1.2rem;
   padding: 0.5rem 3rem;
-  font-size: larger;
   font-weight: 100;
 }
 
@@ -67,7 +69,78 @@ ul {
 .menu-icon {
   display: none;
 }
+.bit-code-register{
+  padding: 0.5rem 2rem;
+  display: flex;
+  border-radius: 4px;
+  border: 1.2px solid #87431d;
+  justify-self: start;
+  color: #fff;
+  background-color: #87431d;
+  margin: 0 1.5rem;
+  text-decoration: none;
+}
+.bit-code-register:hover{
+  background-color: #dbcbbd;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  color: #87431d;
+}
+.nav-register-btn{
+  display: none;
+  text-decoration: none;
+  background-color: #87431d;
+  padding: 0.5rem 3rem;
+  border-radius: 4px;
+  color: #fff;
+  border: 1.2px solid #87431d;
+  text-decoration: none;
+}
+@media screen and (max-width: 1260px){
+  .nav-logo {
+    display: flex;
+    justify-self: start;
+    height: 70%;
+    width: auto;
+    margin: 0 1.5rem;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    justify-content: flex-start;
+    margin-right: 1.2rem;
+  }
+  .nav-links {
+    color: #dbcbbd;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1.8rem;
+    font-weight: 100;
+  }
 
+}
+@media screen and (max-width: 1057px){
+  .nav-logo {
+    display: flex;
+    justify-self: start;
+    height: 70%;
+    width: auto;
+    margin: 0 1rem;
+  }
+  .bit-code-register{
+    padding: 0.5rem 2rem;
+    display: flex;
+    border-radius: 4px;
+    border: 1.2px solid #87431d;
+    justify-self: start;
+    color: #fff;
+    background-color: #87431d;
+    margin: 0 1rem;
+  }
+}
 @media screen and (max-width: 960px) {
 
   .navbar {
@@ -79,7 +152,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 360px;
+    height: 400px;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -96,7 +169,6 @@ ul {
     z-index: 1;
     border: solid .1rem #dbcbbd;
   }
-
   .nav-links {
     text-align: center;
     padding: 2rem;
@@ -109,6 +181,24 @@ ul {
     border-radius: 0;
   }
 
+  .nav-register-btn{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .nav-register-btn:hover{
+  background-color: #dbcbbd;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  color: #87431d;
+  text-decoration: none;
+  }
+ .bit-code-register{
+  display: none;
+ }
   .nav-logo {
     display: flex;
     justify-content: flex-start;
@@ -116,7 +206,7 @@ ul {
     height: 60%;
     width: auto;
     margin:0;
-    margin-right:.4rem 
+    margin-right:.8rem 
   }
 
   .menu-icon {
@@ -134,7 +224,49 @@ ul {
     font-size: 2rem;
   }
 }
+/* @media screen and (max-width: 566px){
+  .nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    height: 40%;
+    width: auto;
+    margin:0;
+    margin-right:.8rem 
+  }
+  .bit-code-register{
+    padding: 0.3rem 1.5rem;
+    display: flex;
+    border-radius: 4px;
+    border: 1.2px solid #87431d;
+    justify-self: start;
+    color: #fff;
+    background-color: #87431d;
+    margin: 0 0.8rem;
+  }
 
+} */
+/* @media screen and (max-width: 566px){
+  .nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    height: 40%;
+    width: auto;
+    margin:0;
+    margin-right:.5rem 
+  }
+  .bit-code-register{
+    padding: 0.2rem 1.2rem;
+    display: flex;
+    border-radius: 4px;
+    border: 1.2px solid #87431d;
+    justify-self: start;
+    color: #fff;
+    background-color: #87431d;
+    margin: 0 0.5rem;
+  }
+} */
 @media screen and (max-width: 350px) {
   .nav-logo {
     height: 60%;
