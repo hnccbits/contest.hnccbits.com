@@ -16,7 +16,7 @@ const MenuItem = [
   },
   {
     title: 'Register Now',
-    url: 'https://forms.gle/8WPFPqsm7eL852ts9',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeaT85syyB4yTCn5zevxcQ4_xq2lWNLwwtdeDZRaHGVs1q7_A/viewform',
     class: 'nav-register-btn',
   }
 ];
