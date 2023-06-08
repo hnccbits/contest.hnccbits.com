@@ -59,7 +59,7 @@ class Footer extends React.Component {
                 href="https://www.codechef.com/campus_chapter/HnCC_BIT_Sindri"
                 className="codechef"
               >
-                CodeChef Chapter
+                BIT Code Contest Page
               </a>
             </div>
           </div>
