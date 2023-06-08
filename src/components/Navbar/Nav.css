@@ -85,6 +85,9 @@ ul {
   transition: all 0.2s ease-out;
   color: #87431d;
 }
+.btn{
+  text-decoration: none;
+}
 .nav-register-btn{
   display: none;
   text-decoration: none;
@@ -208,9 +211,6 @@ ul {
  .bit-code-register{
   display: none;
  }
- .btn{
-  text-decoration: none;
-}
   .nav-logo {
     display: flex;
     justify-content: flex-start;
