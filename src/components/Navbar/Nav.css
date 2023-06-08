@@ -40,7 +40,7 @@ ul {
   flex-direction: row;
   list-style: none;
   text-align: center;
-  width: 70%;
+  width: 60%;
   justify-content: flex-start;
   margin-right: 1.5rem;
 }
@@ -85,6 +85,9 @@ ul {
   transition: all 0.2s ease-out;
   color: #87431d;
 }
+.btn{
+  text-decoration: none;
+}
 .nav-register-btn{
   display: none;
   text-decoration: none;
@@ -94,11 +97,6 @@ ul {
   color: #fff;
   border: 1.2px solid #87431d;
   text-decoration: none;
-}
-@media screen and (max-width: 1332px){
-  .nav-menu {
-    width: 65%;
-  }
 }
 @media screen and (max-width: 1260px){
   .nav-logo {
@@ -113,7 +111,7 @@ ul {
     flex-direction: row;
     list-style: none;
     text-align: center;
-    width: 65%;
+    width: 60%;
     justify-content: flex-start;
     margin-right: 1.2rem;
   }
@@ -125,11 +123,6 @@ ul {
     font-weight: 100;
   }
 
-}
-@media screen and (max-width: 1096px){
-  .nav-menu {
-    width: 58%;
-  }
 }
 @media screen and (max-width: 1057px){
   .nav-logo {
@@ -214,7 +207,6 @@ ul {
     position: relative;
     height: 60%;
     margin:0;
-    left: 40px;
     width: auto;
   }
 
@@ -239,6 +231,5 @@ ul {
     height: 60%;
     width: auto;
     margin: 2rem 2rem 2rem;
-    left: 10px;
   }
 }
