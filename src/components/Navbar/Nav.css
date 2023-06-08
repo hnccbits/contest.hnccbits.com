@@ -40,7 +40,7 @@ ul {
   flex-direction: row;
   list-style: none;
   text-align: center;
-  width: 50%;
+  width: 70%;
   justify-content: flex-start;
   margin-right: 1.5rem;
 }
@@ -95,6 +95,11 @@ ul {
   border: 1.2px solid #87431d;
   text-decoration: none;
 }
+@media screen and (max-width: 1332px){
+  .nav-menu {
+    width: 65%;
+  }
+}
 @media screen and (max-width: 1260px){
   .nav-logo {
     display: flex;
@@ -108,7 +113,7 @@ ul {
     flex-direction: row;
     list-style: none;
     text-align: center;
-    width: 50%;
+    width: 65%;
     justify-content: flex-start;
     margin-right: 1.2rem;
   }
@@ -120,6 +125,11 @@ ul {
     font-weight: 100;
   }
 
+}
+@media screen and (max-width: 1096px){
+  .nav-menu {
+    width: 58%;
+  }
 }
 @media screen and (max-width: 1057px){
   .nav-logo {
@@ -198,14 +208,17 @@ ul {
  .bit-code-register{
   display: none;
  }
+ .btn{
+  text-decoration: none;
+}
   .nav-logo {
     display: flex;
     justify-content: flex-start;
     position: relative;
     height: 60%;
-    width: auto;
     margin:0;
-    margin-right:.4rem 
+    left: 40px;
+    width: auto;
   }
 
   .menu-icon {
@@ -229,5 +242,6 @@ ul {
     height: 60%;
     width: auto;
     margin: 2rem 2rem 2rem;
+    left: 10px;
   }
 }
