@@ -1,5 +1,4 @@
 import React from 'react';
-import CCLogo from '../../assets/cc-logo.png';
 import HNCCLogo from '../../assets/hncclogo.png';
 import MenuItems from './menuItems';
 import './Nav.css';

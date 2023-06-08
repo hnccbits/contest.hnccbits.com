@@ -40,7 +40,7 @@ ul {
   flex-direction: row;
   list-style: none;
   text-align: center;
-  width: 60%;
+  width: 70%;
   justify-content: flex-start;
   margin-right: 1.5rem;
 }
@@ -98,6 +98,11 @@ ul {
   border: 1.2px solid #87431d;
   text-decoration: none;
 }
+@media screen and (max-width: 1332px){
+  .nav-menu {
+    width: 65%;
+  }
+}
 @media screen and (max-width: 1260px){
   .nav-logo {
     display: flex;
@@ -124,6 +129,13 @@ ul {
   }
 
 }
+
+@media screen and (max-width: 1096px){
+  .nav-menu {
+    width: 58%;
+  }
+}
+
 @media screen and (max-width: 1057px){
   .nav-logo {
     display: flex;
@@ -208,6 +220,7 @@ ul {
     height: 60%;
     margin:0;
     width: auto;
+    left: 40px;
   }
 
   .menu-icon {
@@ -231,5 +244,6 @@ ul {
     height: 60%;
     width: auto;
     margin: 2rem 2rem 2rem;
+    left: 10px;
   }
 }

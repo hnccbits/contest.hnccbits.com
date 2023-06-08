@@ -7,7 +7,7 @@
   background-position: 100%;
   background-repeat: no-repeat;
   background-image: url('../../assets/header-img.svg');
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .header {
@@ -20,18 +20,15 @@
   margin: 6rem 2rem 5rem;
 }
 .header-title-1 {
-  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   line-height: 2rem;
 }
 .header-title-2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 6rem;
-  line-height: 6rem;
   font-weight: 600;
+  line-height: 6rem;
 }
 .header-title-3 {
-  font-family: 'Poppins', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 2rem;
@@ -41,11 +38,54 @@
   .header-container {
     align-items: baseline;
     justify-content: center;
+    margin-bottom: 1rem;
+    background-size: contain;
+    background-position: 0 100%;
   }
   .header {
     padding: 1rem 0;
     text-align: center;
-    background-size: contain;
-    background-position: 0 100%;
+  }
+}
+@media screen and (max-width: 762px){
+  .header-title-1 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  .header-title-2 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .header-title-3 {
+    font-size: 2rem;
+    line-height: 1.6rem;
+  }
+}
+@media screen and (max-width: 466px){
+  .header-title-1 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .header-title-2 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .header-title-3 {
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+  }
+}
+@media screen and (max-width: 390px){
+  .header-title-1 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .header-title-2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .header-title-3 {
+    font-size: 1.4rem;
+    line-height: 1.2rem;
   }
 }
