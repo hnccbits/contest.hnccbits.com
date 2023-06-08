@@ -32,7 +32,7 @@ class Nav extends React.Component {
 
         <img src={HNCCLogo} alt="HNCC-Logo" className="nav-logo hncc-logo"/>
 
-        <a href='https://forms.gle/8WPFPqsm7eL852ts9' target='_blank' className='btn-link'><button className='bit-code-register'>Register Now</button></a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeaT85syyB4yTCn5zevxcQ4_xq2lWNLwwtdeDZRaHGVs1q7_A/viewform' target='_blank' className='btn-link' rel="noopener noreferrer"><button className='bit-code-register'>Register Now</button></a>
 
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
