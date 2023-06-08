@@ -85,9 +85,6 @@ ul {
   transition: all 0.2s ease-out;
   color: #87431d;
 }
-.btn{
-  text-decoration: none;
-}
 .nav-register-btn{
   display: none;
   text-decoration: none;
