@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: '400',
 		display: 'flex',
 		justifyContent: 'center',
+		flexDirection:'column',
 		padding: '2rem 1rem',
 		[theme.breakpoints.down('sm')]: {
 			flexDirection: 'column',
@@ -63,9 +64,15 @@ const useStyles = makeStyles((theme) => ({
 		transform: 'rotate(180deg)',
 	},
 	customCard: {
-		margin: '1rem 1rem',
+		margin: '1rem 10rem',
 		padding: '1rem 1rem',
 		boxShadow: '.2rem 1rem .5rem #dbcbbd',
+		[theme.breakpoints.down('md')]: {
+			margin: '1rem 5rem',
+		},
+		[theme.breakpoints.down('sm')]: {
+			margin: '1rem 1rem',
+		},
 
 		'&:hover': {
 			borderColor: '#87431d',
@@ -86,7 +93,7 @@ const useStyles = makeStyles((theme) => ({
 		},
 	},
 	table: {
-		minWidth: '400',
+		maxWidth: '400',
 	},
 }));
 
@@ -120,7 +127,7 @@ export default function RecipeReviewCard() {
 											<StyledTableCell align='right'>BRANCH</StyledTableCell>
 											<StyledTableCell align='right'>SCORE</StyledTableCell>
 											<StyledTableCell align='right'>
-												CodeChef_ID
+											    HackerRank_ID
 											</StyledTableCell>
 										</TableRow>
 									</TableHead>
@@ -142,7 +149,7 @@ export default function RecipeReviewCard() {
 													</StyledTableCell>
 													<StyledTableCell align='right'>
 														<a
-															href={`https://www.codechef.com/users/${contestant.codeChefId}`}
+															href={`https://www.hackerrank.com/${contestant.hackerrankId}/`}
 															target='_blank'
 															rel='noopener noreferrer'
 														>
@@ -178,8 +185,8 @@ export default function RecipeReviewCard() {
 						<Collapse in={index === selectedIndex} timeout='auto' unmountOnExit>
 							<CardContent>
 								<Typography>
-									<a className={classes.customLink} href={detail.listLink}>
-										See the Complete List.
+									<a className={classes.customLink} href={detail.listLink} target='_blank' rel='noopener noreferrer'>
+										See the Leaderboard
 									</a>
 								</Typography>
 							</CardContent>
