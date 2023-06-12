@@ -44,7 +44,52 @@ const Details = [
     registrationLink: 'https://bit.ly/bitcdmar',
     contestCode: 'BCDE2021',
     editorialCode: '2021-03-23-BITCode-Mar-Editorial'
-  }
+  },
+  {
+    contestName: 'BIT Code: June Round',
+    date: 'June 11, 2022',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/hncc-bitcode-june',
+    contestCode: '#',
+    editorialCode: '2022-06-30-BITCode-June-Editorial'
+  },
+  {
+    contestName: 'BIT Code: July Round',
+    date: 'July 17, 2022',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/hncc-bit-code-july',
+    contestCode: '#',
+    editorialCode: '2022-06-30-BITCode-June-Editorial'
+  },
+  {
+    contestName: 'BIT Code: October Round',
+    date: 'October 16, 2022',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/bit-code-october',
+    contestCode: '#',
+    editorialCode: '2022-10-27-BITCode-Oct-Editorial'
+  },
+  {
+    contestName: 'BIT Code: February Round',
+    date: 'February 25, 2023',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/bit-code-feb',
+    contestCode: '#',
+    editorialCode: '2023-06-03-HACK-O-VERSE'
+  },
+  {
+    contestName: 'BIT Code: June Round',
+    date: 'June 10, 2023',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/hncc-bit-code-june',
+    contestCode: '#',
+    editorialCode: '2023-06-03-HACK-O-VERSE'
+  },
 ];
 
 export default Details;
