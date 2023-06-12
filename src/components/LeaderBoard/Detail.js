@@ -113,7 +113,7 @@ const LeaderBoardDetail = [
 				name: 'Rakesh Reddy',
 				score: '300',
 				branch: 'IT',
-				batch: '-',
+				batch: '2k20',
 				hackerrankId: 'rakeshreddy9541',
 			},
 			{
