@@ -186,7 +186,7 @@ export default function RecipeReviewCard() {
 							<CardContent>
 								<Typography>
 									<a className={classes.customLink} href={detail.listLink} target='_blank' rel='noopener noreferrer'>
-										See the Complete List.
+										See the Leaderboard
 									</a>
 								</Typography>
 							</CardContent>

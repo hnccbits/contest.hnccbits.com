@@ -5,10 +5,10 @@ const LeaderBoardDetail = [
 		listLink: 'https://www.hackerrank.com/contests/hncc-bit-code-june/leaderboard',
 		topContestants: [
 			{
-				name: 'Ashish',
+				name: 'Ashish Ranjan',
 				score: '1000',
-				branch: '-',
-				batch: '-',
+				branch: 'Chemical',
+				batch: '2k20',
 				hackerrankId: 'pro_ashish_ranj1',
 			},
 			{
@@ -21,29 +21,29 @@ const LeaderBoardDetail = [
 			{
 				name: 'Tanweer Ansari',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'ECE',
+				batch: '2k20',
 				hackerrankId: 'ansaritanweer836',
 			},
 			{
 				name: 'Abhay Kumar',
 				score: '600',
-				branch: 'Chemical',
-				batch: '2k22',
+				branch: 'EE',
+				batch: '2k21',
 				hackerrankId: 'abhaykrofficial',
 			},
 			{
 				name: 'Suryaprakash Pandey',
 				score: '600',
 				branch: 'CSE',
-				batch: '-',
+				batch: '2k21',
 				hackerrankId: 'pandey_sp',
 			},
 		],
 	},
 	{
 		contestTitle: 'BIT Code: February Round',
-		date: 'February 25, 2020',
+		date: 'February 25, 2023',
 		listLink: 'https://www.hackerrank.com/contests/bit-code-feb/leaderboard',
 		topContestants: [
 			{
@@ -56,8 +56,8 @@ const LeaderBoardDetail = [
 			{
 				name: 'Arvindh Iyer',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'CSE',
+				batch: '2k21',
 				hackerrankId: '2015arvindh',
 			},
 			{
@@ -68,17 +68,17 @@ const LeaderBoardDetail = [
 				hackerrankId: 'murarka_krish',
 			},
 			{
-				name: 'Ashish',
+				name: 'Ashish Ranjan',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'Chemical',
+				batch: '2k20',
 				hackerrankId: 'pro_ashish_ranj1',
 			},
 			{
 				name: 'Shubham Mishra',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'CSE',
+				batch: '2k21',
 				hackerrankId: 'm_shubham0723',
 			},
 		],
@@ -96,17 +96,17 @@ const LeaderBoardDetail = [
 				hackerrankId: 'Amank2854',
 			},
 			{
-				name: 'Ashish',
+				name: 'Ashish Ranjan',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'Chemical',
+				batch: '2k20',
 				hackerrankId: 'pro_ashish_ranj1',
 			},
 			{
 				name: 'Shivam Bhagat',
 				score: '600',
-				branch: '-',
-				batch: '-',
+				branch: 'IT',
+				batch: '2k19',
 				hackerrankId: 'shivampkrr',
 			},
 			{
