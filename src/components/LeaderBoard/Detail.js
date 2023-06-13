@@ -12,13 +12,6 @@ const LeaderBoardDetail = [
 				hackerrankId: 'pro_ashish_ranj1',
 			},
 			{
-				name: 'Soham Mirikar',
-				score: '600',
-				branch: 'CSE',
-				batch: '2k20',
-				hackerrankId: 'sohammirikar',
-			},
-			{
 				name: 'Tanweer Ansari',
 				score: '600',
 				branch: 'ECE',
@@ -38,6 +31,13 @@ const LeaderBoardDetail = [
 				branch: 'CSE',
 				batch: '2k21',
 				hackerrankId: 'pandey_sp',
+			},
+			{
+				name: 'Adity Kumari',
+				score: '600',
+				branch: 'EE',
+				batch: '2k21',
+				hackerrankId: 'aditykumarib',
 			},
 		],
 	},
