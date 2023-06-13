@@ -123,10 +123,10 @@ export default function RecipeReviewCard() {
 									<TableHead>
 										<TableRow>
 											<StyledTableCell>NAME</StyledTableCell>
-											<StyledTableCell align='right'>BATCH</StyledTableCell>
-											<StyledTableCell align='right'>BRANCH</StyledTableCell>
-											<StyledTableCell align='right'>SCORE</StyledTableCell>
-											<StyledTableCell align='right'>
+											<StyledTableCell align='center'>BATCH</StyledTableCell>
+											<StyledTableCell align='center'>BRANCH</StyledTableCell>
+											<StyledTableCell align='center'>SCORE</StyledTableCell>
+											<StyledTableCell align='center'>
 											    HackerRank_ID
 											</StyledTableCell>
 										</TableRow>
@@ -138,16 +138,16 @@ export default function RecipeReviewCard() {
 													<StyledTableCell component='th' scope='row'>
 														{contestant.name}
 													</StyledTableCell>
-													<StyledTableCell align='right'>
+													<StyledTableCell align='center'>
 														{contestant.batch}
 													</StyledTableCell>
-													<StyledTableCell align='right'>
+													<StyledTableCell align='center'>
 														{contestant.branch}
 													</StyledTableCell>
-													<StyledTableCell align='right'>
+													<StyledTableCell align='center'>
 														{contestant.score}
 													</StyledTableCell>
-													<StyledTableCell align='right'>
+													<StyledTableCell align='center'>
 														<a
 															href={`https://www.hackerrank.com/${contestant.hackerrankId}/`}
 															target='_blank'
