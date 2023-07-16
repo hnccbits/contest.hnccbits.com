@@ -7,7 +7,7 @@ const Details = [
     image: { Image },
     registrationLink: 'https://www.hackerrank.com/hncc-bit-code-june',
     contestCode: '#',
-    editorialCode: '2023-06-03-HACK-O-VERSE'
+    editorialCode: '2023-06-15-BITCode-June-Editorial'
   },
   {
     contestName: 'BIT Code: February Round',
