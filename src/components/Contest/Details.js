@@ -1,13 +1,21 @@
 import Image from '../../assets/cc-logo.png';
 const Details = [
   {
+    contestName: 'BIT Code: September Round',
+    date: 'September 17, 2023',
+    description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
+    image: { Image },
+    registrationLink: 'https://www.hackerrank.com/bit-code-september',
+    contestCode: '#',
+    editorialCode: '2023-09-13-bitcode-August-editorial'
+  },{
     contestName: 'BIT Code: August Round',
     date: 'August 23, 2023',
     description: 'Part of the Monthly Contest Series: BIT Code. The questions were primarily focused on DSA. In association with TAP Cell, BIT Sindri.',
     image: { Image },
     registrationLink: 'https://www.hackerrank.com/bit-code-august-1',
     contestCode: '#',
-    editorialCode: '#'
+    editorialCode: '2023-09-13-bitcode-August-editorial'
   },
   {
     contestName: 'BIT Code: July Round',
@@ -16,7 +24,7 @@ const Details = [
     image: { Image },
     registrationLink: 'https://www.hackerrank.com/bit-code-july',
     contestCode: '#',
-    editorialCode: '2023-07-29-BITCode-July-editorial/'
+    editorialCode: '2023-07-29-BITCode-July-editorial'
   },
   {
     contestName: 'BIT Code: June Round',
