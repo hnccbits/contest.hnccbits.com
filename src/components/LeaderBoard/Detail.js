@@ -1,5 +1,47 @@
 const LeaderBoardDetail = [
 	{
+		contestTitle: 'BIT Code: November Round - 1',
+		date: 'November 02, 2024',
+		listLink: 'https://www.hackerrank.com/contests/bit-code-phase-1-round-1/leaderboard',
+		topContestants: [
+			{
+				name: 'Aman Kumar Verma',
+				score: '600',
+				branch: 'IT',
+				batch: '2k22',
+				hackerrankId: 'amanverma0601201',
+			},
+			{
+				name: 'Kumar Anshuman',
+				score: '400',
+				branch: 'ECE',
+				batch: '2k22',
+				hackerrankId: 'Kumar_Anshuman',
+			},
+			{
+				name: 'Nikhil Ranjan',
+				score: '300',
+				branch: 'Electrical',
+				batch: '2k23',
+				hackerrankId: 'iamnikhilranjan',
+			},
+			{
+				name: 'Ashish Kumar',
+				score: '300',
+				branch: 'IT',
+				batch: '2k24',
+				hackerrankId: 'ashishkumar_ab01',
+			},
+			{
+				name: 'Pratham Kumar Sinha',
+				score: '300',
+				branch: 'ECE',
+				batch: '2k22',
+				hackerrankId: 'pratham_sinha',
+			},
+		],
+	},
+	{
 		contestTitle: 'BIT Code: September Round',
 		date: 'September 17, 2023',
 		listLink: 'https://www.hackerrank.com/contests/bit-code-september/leaderboard',
